@@ -1,0 +1,152 @@
+*{
+    font-family: arial;
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: rgb(32, 32, 32);
+}
+nav{
+    background-color:  rgb(46, 46, 46);
+    display: flex;
+}
+.backtohome button{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: rgb(7, 0, 0);
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+}
+.backtohome button:hover{
+    transition: 1.5s;
+    cursor: pointer;
+    letter-spacing: 0.25em;
+    background-color: #cf0000;
+}
+.logo img{
+    height: 80px;
+}
+.uppercontactsmenu{
+    display: grid;
+}
+.uppercontactsmenu button{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: rgb(7, 0, 0);
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+}
+.uppercontactsmenu button:hover{
+    transition: 1.5s;
+    cursor: pointer;
+    letter-spacing: 0.25em;
+    background-color: #cf0000;
+}
+.contactsmenu{
+    background-color: rgb(46, 46, 46);
+    border: solid;
+    border-top: rgba(255, 235, 205, 0);
+    border-left:  rgba(255, 235, 205, 0);
+}
+.mainpage{
+    display: flex;
+}
+.facebook{
+    height: 30px;
+    border: solid black thin;
+}
+.facebook:hover{
+    border-radius: 10px;
+    transition: 1s;
+}
+.Insta{
+    height: 30px;
+    border: solid black thin;
+}
+.Insta:hover{
+    border-radius: 10px;
+    transition: 1s;
+}
+.twitter{
+    height: 30px;
+    border: solid black thin;
+}
+.twitter:hover{
+    border-radius: 10px;
+    transition: 1s;
+}
+.lowercontactsmenu{
+    display: grid;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+.maintext p{
+    border: double;
+    border-width: 5px;
+    border-color: #cf0000;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+.maintext h1{
+    padding-left: 50px;
+    padding-top: 100px;
+    font-style: italic;
+    font-size: 60px;
+}
+strong{
+    color: #cf0000;
+}
+.phonenumber img{
+    height: 100px;
+}
+.phonenumber span{
+    color: #cf0000;
+    font-weight: bolder;
+}
+.phonenumber p{
+    color: #cf0000;
+    font-weight: bolder;
+}
+.gmail img{
+    height: 100px;
+    margin-left: 100px;
+}
+.gmail span{
+    color: #cf0000;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+.gmail p{
+    color: #cf0000;
+    font-weight: bolder;
+}
+.gmail a{
+    margin-left: 100px;
+    color: #cf0000;
+}
+.location img{
+    height: 100px;
+    margin-left: 100px;
+}
+.location span{
+    color: #cf0000;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+.location p{
+    margin-left: 100px;
+    color: #cf0000;
+}
+.contacts{
+    display: flex;
+    margin-left: 190px;
+    margin-top: -200px;
+}
+.mapexact{
+    margin-top: 160px;
+}
